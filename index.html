@@ -1,44 +1,103 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blackbird Technical</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background: #111;
+      color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.25rem;
+      margin-top: 1rem;
+    }
+    .btn {
+      background: #00aaff;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      margin-top: 1.5rem;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .services, .about, .contact {
+      margin-bottom: 3rem;
+    }
+    .services ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    .services li {
+      padding: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #222;
+      color: white;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
 
-    <title>Azure App Service - Sample Static HTML Site</title>
+  <header>
+    <h1>Blackbird Technical</h1>
+    <p>Managed IT Services for Small Businesses</p>
+    <a href="#contact"><button class="btn">Request a Consultation</button></a>
+  </header>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-  </head>
+  <section class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>📁 Managed IT & Help Desk Support</li>
+      <li>🔐 Cybersecurity & Compliance</li>
+      <li>☁️ Cloud Migration & Office 365 Management</li>
+      <li>📡 Network Design, Setup & Monitoring</li>
+      <li>🖥️ Device Management (PCs, Macs, Mobile)</li>
+    </ul>
+  </section>
 
-  <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-          <h1>Azure App Service - Sample Static HTML Site</h1>
-          <hr/>
-      </div>
-    </div>
+  <section class="about">
+    <h2>About Blackbird Technical</h2>
+    <p>
+      We help small businesses stay productive and protected by managing all their IT needs —
+      from troubleshooting and security to cloud solutions and strategic planning.
+      With responsive support and proactive monitoring, we keep your systems humming so you can focus on growth.
+    </p>
+  </section>
 
-    <!-- Wrap the rest of the page in another container to center all the content. -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>
+      📧 Email: <a href="mailto:hello@blackbirdtechnical.com">hello@blackbirdtechnical.com</a><br />
+      📍 Based in [Your City/State] — Serving small businesses nationwide.
+    </p>
+  </section>
 
-    <div class="container">
-        
-      <div class="row">
-        <div class="col-xs-12 col-sm-6">
-          <img class="img-rectangle" src="img/azure-portal.png" alt="Azure App Service Web Apps" height="140">
-          <h2>Azure App Service Web Apps</h2>
-          <p>App Service Web Apps is a fully managed compute platform that is optimized for hosting websites and web applications. This platform-as-a-service (PaaS) offering of Microsoft Azure lets you focus on your business logic while Azure takes care of the infrastructure to run and scale your apps.</p>
-        </div>
-      </div>
-    </div>
+  <footer>
+    &copy; 2025 Blackbird Technical. All rights reserved.
+  </footer>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+</body>
 </html>
